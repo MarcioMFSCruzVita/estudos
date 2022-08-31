@@ -1,0 +1,116 @@
+Como criar um SCHEMA
+
+CREATE SCHEMA nome_do_schema;
+
+Como criar uma tabela
+
+CREATE TABLE LIVROS(
+    ID_LIVRO INT NOT NULL,
+    NOME_LIVRO VARCHAR(100) NOT NULL,
+    AUTORIA VARCHAR(100) NOT NULL,
+    EDITORA VARCHAR(100) NOT NULL,
+    CATEGORIA VARCHAR(100) NOT NULL,
+    PRECO DECIMAL(5,2) NOT NULL,
+    
+    PRIMARY KEY (ID_LIVRO)
+    );
+
+    Fazer relacionamento com tabelas
+
+    ALTER TABLE vendedores ADD constraint CE_vendedores_vendas
+    foreign key (ID_VENDEDOR)
+    references VENDAS (ID_VENDEDOR)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+
+    DESATIVAR CHAVE ESTRANGEIRA E TIRAR RELACIONAMENTOS ENTRE tabelas
+    SET FOREIGN_KEY_CHECKS = 0;
+
+    Fazer insert no banco de dados
+
+    INSERT INTO LIVRO VALUES (
+        1,
+        "Percy Jackson e o Ladrão de Raios",
+        "Rick Riodan",
+        "Intriseca",
+        "Aventura",
+        34.65);
+
+    Inserir valores fora de ordem
+
+        INSERT INTO LIVROS 
+        (CATEGORIA, AUTORIA, NOME_LIVRO, EDITORA, ID_LIVRO, PREÇO)
+        VALUES
+        ('Biografia' ,    'Malala Yousafzai', 'Eu sou Malala'       , 'Companhia das Letras', 11, 22.32),
+        ('Biografia' ,    'Michelle Obama'  , 'Minha história'      , 'Objetiva'            ,    12,    57.90),
+        ('Biografia' ,    'Anne Frank'      , 'Diário de Anne Frank', 'Pe Da Letra'         , 13, 34.90);
+
+    Excluindo uma tabela
+
+        DROP TABLE VENDEDORES;
+
+    Selecionar todos os campos e retornar dados
+        SELECT * FROM TABELA; z 
+
+    Selecionar campos especificos
+        SELECT NOME_LIVRO FROM LIVROS;
+
+    Apelidar campos no retorno:
+        SELECT NOME_LIVRO AS "Nome do Livro" FROM LIVROS;
+
+    Selecionar dados especificos
+        SELECT * FROM LIVROS WHERE NOME_LIVRO = "Percy Jackson e o Ladrão de Raios";
+
+    Seleciona dados parecidos
+    SELECT CIDADE, ESTADO FROM MAPA WHERE CIDADE LIKE '%LÂNDIA';
+
+    Select com 'OR'
+        SELECT CIDADE, ESTADO FROM MAPA WHERE CIDADE = "Uberlândia" OR CIDADE = "Analândia";
+
+    Selecionar sem se repetir os dados e colocar em ordem
+        SELECT DISTINCT ID_LIVRO FROM VENDAS WHERE ID_VENDEDOR = 1 ORDER BY ID_LIVRO;
+
+    Deletando informação de tabela
+    DELETE FROM LIVROS WHERE ID_LIVRO = 8;
+
+    Atualizar dados de um campo na tabela
+        UPDATE LIVROS SET PRECO = 0.9*PRECO;
+
+    Selecionar campos diferentes na tabela, agrupar e somar
+        SELECT VENDAS.ID_VENDEDOR, VENDEDORES.NOME_VENDEDOR, SUM(VENDAS.QTD_VENDIDA) FROM VENDAS, VENDEDORES WHERE VENDAS.ID_VENDEDOR = VENDEDORES.ID_VENDEDOR GROUP BY VENDAS.ID_VENDEDOR;     
+    
+    SELECT LIVROS.ID_LIVRO, LIVROS.NOME_LIVRO, SUM(VENDAS.QTD_VENDIDA)
+    FROM LIVROS, VENDAS 
+    WHERE LIVROS.ID_LIVRO = VENDAS.ID_LIVRO 
+    GROUP BY LIVROS.ID_LIVRO;
+    
+
+    Inner join
+
+        SELECT VENDAS.ID_VENDEDOR, VENDEDORES.NOME_VENDEDOR, SUM(VENDAS.QTD_VENDIDA)
+        FROM VENDAS INNER JOIN VENDEDORES
+        ON VENDAS.ID_VENDEDOR = VENDEDORES.ID_VENDEDOR
+        GROUP BY VENDAS.ID_VENDEDOR
+
+
+    Selecionando valores com funções
+
+    SELECT MAX(QTD_VENDIDA) FROM VENDAS;
+
+    MAX: a partir de um conjunto de valores é retornado o maior entre eles;
+
+    MIN: analisa um grupo de valores e retorna o menor entre eles;
+
+    SUM: calcula o somatório dos valores de um campo específico;
+
+    AVG: realiza a média aritmética dos valores de uma determinada coluna;
+
+    COUNT: contabiliza a quantidade de linhas selecionadas;
+
+    SELECT MAX(QTD_VENDIDA) FROM VENDAS GROUP BY ID_VENDEDOR;
+
+    
+
+
+    
+        

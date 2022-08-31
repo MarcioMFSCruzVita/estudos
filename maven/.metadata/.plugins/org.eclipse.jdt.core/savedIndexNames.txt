@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\Marcio\Desktop\Estudos Vita Academy\maven\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+302163055.index
+152982279.index
+2887631762.index
+1250271216.index

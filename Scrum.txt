@@ -1,0 +1,285 @@
+    Introdução e Definição de Scrum
+    {
+        1- O time deve trabalhar como uma unidade visando alcançar o objetivo
+
+        _________________________________________________________________________________
+
+        Scrum deve ser utilizado quando:
+
+        1- Onde há complexidade é preciso uma forma mais flexível de trabalho;
+
+        2- Atualmente Scrum é muito utilizado para empresas de software e é quase regra seu uso.
+
+        _________________________________________________________________________________
+
+        "É um erro tentar planejar o passo a passo do software, ninguém sabe o que está por vir."
+
+        _________________________________________________________________________________
+            Definição Scrum Guide
+            {
+
+                Um framework dentro do qual pessoas podem tratar e resolver problemas complexos e adaptativos, enquanto produtiva e criativamente entregam produtos com o mais alto valor possível.
+
+                Scrum não é uma tecnica para construir produtos, ele seve para organização dos mesmos
+                Utilizado em projetos complexos
+
+                O Scrum é um framework de fácil entendimento, mas de difícil aplicação devido a suas regras específicas
+            }
+
+            Metodologia & Framework
+            {
+                Meotodologia é um conjunto de metodos organizados para construição de algo especifico
+
+                Framework é um conjunto de Regras
+
+                Scrum assim como um jogo ele contem regras mas você pode desenvolver jogadas diferentes
+
+                Em projetos pequenos e menos complexos é melhor adaptar uma metodologia do que um framework que é normalmente utilizado para projetos complexos
+        ____}______________________________________________________________________________________________
+        "
+        Scrum ele pode ser aplicados em diversas empresas que utilizam Metodologias, porém ao aplicar Scrum em uma empresa é necessário seguir as regras do Framework, caso contrario você não estará utilizando o Framework e sim práticas, uma metodologia ágil."
+
+        __________________________________________________________________________________________________
+            Framework Scrum é aplicavel
+            {
+                Portifolio de Projetos, programas ou projetos.
+                Produtos, Serviços ou resultados.
+                Projetos de qualquer complexidade.
+                "O framework ele é mais aplicado para projetos."
+            }
+        __________________________________________________________________________________________________
+            Principais vantagens do uso do Scrum
+            {
+                É adaptavél(){
+                    Você irá fazer o planejamento de um dia para os proximos 30 dias(limite max), ao final desse limite você vai validar com o cliente se o que está sendo desenvolvido é o mesmo que o cliente quer.
+                }
+
+                Transparencia(){
+                    está relacionado com o adaptavél, de entregar o projeto para o cliente a cada 30 dias para ver o processo de construção, mas isso não só com o cliente mas com o time de desenvolvimento!
+                }
+
+                Feedback Continuo(){
+                    O maximo de clareza com o cliente pra planejamento dos proximos passos, isso vai ajudar a atingir o objetivo do cliente, e trazer mais resultados
+                }
+
+                Melhoria Continua(){
+                    Por conta do feedback do cliente é possível ter muitas melhorias no seu projeto, assim ajudando a entregar um melhor resultado para o cliente
+                }
+
+                Ritmo sustentavél(){
+                    É feito um acordo entre a equipe de desenvolvedores, e o Scrum para definir o que deve ser desenvolvido e o que pode ser desenvolvido dentro do periodo de 30 dias.
+                }       
+
+                Entrega Antecipada de valor(){
+                    É possivel fazer entregas de valor de 30 em 30 dias, uma entrega bem melhor do que de 1 ano, e agrega bem mais valor ao projeto.
+                    
+                    É importante entregar valor quando você se preocupa com o cliente, por exemplo um hospital ele tem muitas consultas na parte de otorpedia, é possivel entregar um modulo mesmo com dividas tecnicas, mas a questão é sobre entregar valor de acordo com a necessidade do cliente.
+                }
+
+                Motivação(){
+                    significa dar as pessoas envolvidas a condição de determinarem o que elas podem ou devem fazer dentro do projeto, como, prazos e definição de objetivos. Esta autonomia causa impacto positivo nos projetos.
+                }
+
+                Soluções Rapidas(){
+                    significa dar as pessoas envolvidas a condição de determinarem o que elas podem ou devem fazer dentro do projeto, como, prazos e definição de objetivos. Esta autonomia causa impacto positivo nos projetos.
+                }
+            }
+
+            Entregas Eficazes{
+                Foco no Cliente(){
+                    A questão é nunca é sóbre o que o programador quer, é o que o cliente quer, focando no cliente é possivel agregar mais valor ao cliente.
+
+                    Sempre gerar expectativas positivas ao time para que sempre tenha resultados positivos.
+                }
+
+                Responsabilidade Coletiva(){
+                    O grupo é responsável pelo sucesso, caso alguem do grupo tenha dificuldades para resolver problemas, o time é responsável pela ajuda.
+                }
+
+                Alta Velocidade(){
+                    Velocidade é importante, para ser ágil precisa de um conjunto de regras, é preciso ser fiel as regras do Scrum para consquistar a agilidade.
+                }
+
+                Ambiente Inovador(){
+                    importante sempre se atualizar.
+                }
+            }
+    }
+    _________________________________________________________________________________________________
+
+    Instituições
+    {
+        Exin | Agile Scrum{
+            Agile Scrum Foundation(ASF) -> Pode ser feita sem curso vinculado a Exin, é um conceito fundamentado em várias práticas ágeis;
+
+            Agile Scrum Master(ASM) -> Precisa de um curso credenciado da Exin
+        }
+
+        Scrum Alliance | Pioneira{
+            Certified Scrum Developer(CSD) -> Para quem faz parte de uma equipe de desenvolvimento;
+
+            Certified Scrum Master(CSM) ->  É uma certificação muito forte, mas perdeu um pouco do seu peso no mercado de desenvolvimento;
+
+            Certified Scrum Product Owner(CSPO) -> Ainda é uma certificação bem valorizada.
+
+            Todos os certificados precisam ter um curso da Scrum Alliance vinculado.
+            
+        }
+
+        Scrum.org(mais recomendada){
+            Professional Scrum Developer(PSD) -> Desenvolvimento de software
+            
+            Professional Scrum Master(PSM) -> É uma prova bem complexa e a certificação tem um peso muito grande entre os desenvolvedores;
+
+            Professional Scrum Product Owner(PSPO) -> Para Gerente de Projetos
+        }
+
+        Scrum Study{
+            Scrum Developer Certified(SDC) - Para quem quer ser membro de uma equipe de desenvolvimento de produtos complexos;
+
+            Scrum Master Certified(SMC) - Para quem quer ser mestre em Scrum;
+
+            Scrum Product Owner Certified(SPOC) - Para quem quer ser dono de produto certificado.
+        }
+
+        PMI{
+
+            Agile Certificed Practitioner (PMI-ACP) - Certificação focada em Agile e que possui uma prova difícil e focada em práticas e métodos. Além disso, a certificação requer experiência prática comprovada;
+        }
+
+        Qual certificação deve-se fazer?
+        {
+            Exin - Quem já tem certificação em ITIL, por exemplo, pode investir no Exin. A instituição tem muita importância no mercado de infraestrutura;
+
+            SCRUM.org - Para quem é desenvolvedor de software;
+
+            PMI - Para quem é gerente de projetos e tem boa experiência;
+
+            SCRUMstudy - Para quem ainda não tem experiência.
+
+        }
+    }
+
+__________________________________________________________________________________________________
+
+    Tecnicas Agile{
+        Desenvolvimento Iterativo
+        {
+            Administrar melhor as mudanças;
+
+            Atender as necessidades do cliente;
+
+            Delinear responsabilidades;
+        }
+
+
+        Empirismo{
+            Transparência: É o conceito de que todos os funcionários sabem o que seus colegas de trabalho estão produzindo ou fazendo;
+
+            Inspeção: Com todas as informações facilmente disponibilizadas devido a transparência, conseguimos inspecionar o trabalho e o andamento do projeto;
+
+            Adaptação: É a consequência de melhorar os processos a partir da inspeção.
+        }
+
+        Eventos Formais
+        {
+            Os eventos formais dentro do Scrum existem para que possamos colocar em prática os princípios que temos estudado.
+
+            Reunião de planejamento da sprint (ciclo de desenvolvimento);
+
+            Reunião diária;
+
+            Reunião de revisão da sprint -> verificar se é aceitavel pelo cliente;
+
+            Retrospectiva da sprint;
+        }
+
+        Papéis fundamentais
+        {
+            Time Scrum
+            {
+                Formado por um grupo de profissionais que tem como Responsabilidade construir o produto
+            }
+
+            Dono do Produto
+            {
+                É o profissional que conhece as necessidades do cliente e vai fazer a ponte entre o cliente e o time Scrum. Ele garante o valor do trabalho
+            }
+
+            Scrum Master{
+                Vai garantir que as regras de Scrum sejam seguidas e aplicadas da forma correta
+            }
+
+            Time-Box {
+                No minimo 2 semanas no max 4 semanas de trabalho no sprint
+            }
+
+            Sprint
+            {
+
+                Reunião de planejamento da Sprint é o momento em que se planeja tudo o que será realizado na sprint. Deve ter um tempo de duração de no máximo 8 horas para 4 semanas de sprint. É nesta reunião que serão selecionadas as histórias de usuário e montado o Backlog da Sprint;
+
+                Reuniões diárias devem ter no máximo 15 minutos de duração e o objetivo é responder três perguntas: "O que foi feito ontem?", "O que será feito hoje?" e "Houve algum obstáculo?";
+
+                Trabalho de desenvolvimento;
+
+                Revisão da Sprint - Tem até 4 horas de duração para uma Sprint de um mês. É quando o Time Scrum e as partes interessadas apresentam e debatem o que foi feito na sprint;
+
+                Retrospectiva da Sprint - Tem um limite de 3 horas para uma Sprint de um mês. Analisa o processo e planeja melhorias para as próximas sprints;
+            }
+
+            Backlog do Sprint
+            {
+                É selecionado com base no que é valor para o Cliente;
+
+                Torna visível todo o trabalho que o Time de Desenvolvimento identifica como necessário para atingir o objetivo da Sprint;
+
+                Definição de Pronto
+                Significa que um determinado conjunto de histórias de usuário atendem um objetivo em comum;
+
+                O objetivo ou requisitos para que um produto seja considerado pronto deve ser estabelecido com base em reuniões das partes interessadas com o time de desenvolvimento.
+            }
+        }
+    }
+
+    Definições{
+        Stakeholders ou Partes Interessadas:" é composto pelo time de trabalho, o cliente e até a direção da empresa. Enfim, os formadores de opinião que possuem interesse no desenvolvimento do projeto e que podem impactar os resultados dele;"
+
+        Scrum Guidance Body: "é um conjunto de partes seniores que orientam a construção dos produtos, a formação do time e o delineamento de todo o trabalho ao longo do tempo;"
+
+        Fornecedores: "são provedores de conteúdo, informação e serviços que podem nos auxiliar a    construir os resultados que buscamos;"
+
+        Dono do Produto Chefe: "é um conceito que não está no Scrum Guide, é uma visão de Gestão Ágil para escalada de projetos. É o papel que vai gerenciar o andamento do trabalho dos outros donos de produto dentro do escopo de Scrum de Scrums. Por exemplo, caso um projeto necessite de mais de um time Scrum para desenvolver o produto, precisaremos de alguém que direcione a produção para que ela esteja alinhada entre todas as equipes;"
+
+        Scrum Master Chefe: "surge junto ao Dono do Produto Chefe, para acompanhar o gerenciamento dos múltiplos times Scrum nos casos em que a organização trabalha com o Scrum em vários setores (e não com o Scrum puro)."
+    }
+
+    
+
+###Seleção do Time Scrum
+
+O Time Scrum é o grupo que irá desenvolver o produto durante o andamento do projeto. O dono do produto, junto do Scrum Master e a Declaração da Visão do Projeto, seleciona a equipe que compõe o Time Scrum e para isso levam em consideração a especificidade do projeto para qual o time está sendo formado e, por consequência, quais especialidades devem ser procuradas.
+
+###Elaborar Épicos e Personas
+
+Os Épicos e Personas são as ferramentas que dão forma às necessidades e requisitos do cliente e, portanto, ajudam a criar o produto. O Time Scrum desenvolve épicos e personas e o Dono do Produto em conjunto com o Scrum Master elaboram as entregas, isto é, o que será produzido. Os épicos dizem respeito as entregas enquanto as personas são os usuários desses produtos e para que tudo funcione são utilizadas entradas, ferramentas e saídas. Por exemplo, realizar entrevistas com usuários, reuniões de grupo de usuários e aplicar questionários.
+
+###Estimar Histórias de Usuários Aprovadas
+
+As histórias de usuários são decomposições dos épicos, isto é, "pacotes" menores dessas entregas. O Time Scrum aprova e estima histórias de usuários conforme critérios de aceitação determinados pelo dono do produto e faz isso com base nos interesses dos clientes.
+
+###Ordenar Tarefas
+
+A ordem das tarefas deve ser elaborada junto com o time Scrum em reuniões de planejamento. Assim, também deve ser empregada a decomposição do planejamento em tarefas e elas devem ser ordenadas além da determinação de dependência.
+
+###Acompanhar Entregas
+
+Uma técnica interessante para acompanhar as entregas de forma organizada é a utilização do Scrumboard, que é um quadro dividido em História, A fazer, Andamento, Em teste e Pronto. Em cada item são alocadas as entregas dependendo da forma que elas se encontram no momento, assim fica visível sua progressão até estarem prontas.
+
+###Retrospectiva para Acordo de Melhoria
+
+Reuniões realizadas com todo o time Scrum podem ser praticadas utilizando-se diversas técnicas, por exemplo, a ESVP (Explorer-Shopper-Vacationer-Prisoner). Uma das técnicas consiste em como cada pessoa se enxerga e se comporta dentro de uma reunião segundo determinada situação, outra técnica é a da Lancha que consiste em imaginar-se em uma ilha sendo o objetivo maior sair dela. Assim, o motor da lancha é a equipe e ela é que será o responsável por alcançar o objetivo.
+
+
+     
+

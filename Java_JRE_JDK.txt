@@ -1,0 +1,26 @@
+Byte = "é um codigo de maquina virtual parecido com assembly é um conjunto de comandos que a maquina virtual entender esses comandos são chamados de opcode"
+
+principais características da linguagem Java{
+    orientado a objetos
+    parecido com C++
+    muitas bibliotecas e grande comunidade
+
+    para executar o Bytecode é preciso ter a máquina virtual java
+o Bytecode é independente do sistema operacional
+
+principais componentes da plataforma Java:
+Java Virtual Machine (JVM)
+linguagem Java
+Bibliotecas Java (API)
+}
+
+JRE = "Executar aplicações java, ele contem a JVM(Java Virtual Machine) e bibliotecas"
+JDK = JRE + " Ferramentas de Desenvolvimento"
+
+Para executar codigo no console
+
+javac programa.java
+
+java programa
+
+

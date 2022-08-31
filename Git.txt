@@ -1,0 +1,53 @@
+GIT - Versionamento do Codigo
+
+GIT e GitHub serve para versionar o codigo e trabalhar em conjunto em projetos
+
+Git clone linkcode -> Clona repositorio
+
+git pull linkcode -> verifica se os arquivos estão atualizados e se não estiverem ele atualiza
+
+git commit nomedoarquivo -m/. "alteração do nomearquivo" -> comitando arquivo
+
+git push origin main -> fazendo push para arquivo principal
+
+git log --oneline mostra todos os commits e os codigos de alteração
+
+git restore --source codigodeversao . -> restaurar codigo 
+
+git log --author="user_name" -> autor do commit 
+
+git log --since=1.month.ago --until=1.day.ago -> pesquisar info por data
+
+git log -p -> exibe o maximo de info
+
+git clone -branch new_feature <repositorio> -> configurar o git clone e clonar o repositório a partir de uma branch específica, diferente da original
+
+git status -> verifica arquivos modificados
+
+git add . -> adicionar mudanças para o repositorio local 
+
+git add <nome do arquivo> -> seleciona arquivo para commit e push
+
+usa-se git add nome-do-arquivo-alterado. -> adicionar mudanças de algum arquivo especifico
+
+git checkout -b desenvolvimento -> cria branch desenvolvimento
+
+git switch -b main -> volta para branch principal 
+
+git push origin desenvolvimento -> faz push para branch de desenvolvimento
+
+git branch nome-da-branch -> cria a branch porem não muda automaticamente para ela
+
+git branch -> mostra todas as branchs
+
+//juntar branchs
+
+git switch main -> troca para branch principal
+
+git merge desenvolvimento -> junta main com desenvolvimento
+
+git push origin main ->  puxa alterações de desenvolvimento para main
+
+
+
+

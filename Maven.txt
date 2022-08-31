@@ -1,0 +1,84 @@
+Maven é um gerenciador de pacotes, ele faz a build e cuida das dependencias também
+
+war -> É um formato do codigo compilado
+
+pom.xml -> gerencia as dependencias é possivel instalar dependencias pelo pom.xml
+
+link com dependencias para maven : https://mvnrepository.com/
+
+definindo a versão de compile do java no pom.xml
+
+<build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+</build>
+
+mvn clean -> limpa o target para preparar o ambiente
+
+mvn compile -> compila o codigo
+
+mvn test -> vai rodar os testes
+
+mvn package -> mvn package solicita ao Maven que compile o projeto, execute os testes automatizados e então gere o artefato de build da aplicação.
+
+mvn install -> gera o jar e instala
+
+mvn deploy -> faz todos os passos e joga em um repositorio remoto
+
+mvn clean package -> limpa o target e faz o empacotamento com a aplicação e gera um jar/ war
+
+<packaging>jar/ war</packaging> -> define se o package vai ser em jar ou em war
+
+<finalName>loja</finalName> -> define o nome do package
+
+Configuração de Proxy no arquivo
+settings.xml
+{
+    <settings> 
+    
+    xmlns=httpmaven.apache.orgSETTINGS¹1.0.0
+
+código omitido
+
+    <proxies>
+        <proxy>
+                    <id>genproxy</id>
+                    <active>true</active>
+                    <protocol>http</protocol>
+                    <host>proxyHost</host>
+                    <port>3128</port>
+                    <username>username</username>
+                    <password>password</password>
+        </proxy>
+    </proxies>
+
+    </settings>
+}
+
+instalar modulos adicionar no pom.xml
+
+
+<modules>
+<module>rh-domain</module>
+<module>rh-web</module>
+<module>rh-persistencia</module>
+</modules>
+
+Quando existe projeto pai adicionar em pom.xml
+
+<parent>
+        <groupId>br.com.caelum.fj91</groupId>
+        <artifactId>rh</artifactId>
+        <version>1.0</version>
+    </parent>
+
+
+
+
