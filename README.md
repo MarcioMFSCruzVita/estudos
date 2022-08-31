@@ -1,3 +1,5 @@
 <h1>Projetos e anotações de estudo Cruz Vita</h1>
 
-> Status do Projeto: Em desenvolvimento
+<h3>Curso Atual<h3>:
+> HTTP
+> Status dos Cursos: Em desenvolvimento
