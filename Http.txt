@@ -1,0 +1,132 @@
+
+Modelo de comunicação de Cliente -> Serviço
+
+Para que dois servidores se comuniquem precisamos que eles utilizem a mesma regra, no caso o protocolo http
+
+Protocolo -> Conjunto de regras
+
+HTTP -> Hypertext Transfer Protocol -> é um protocolo de regras
+
+HTTOS -> é um HTTP comum porém com uma segurança/criptografia SSL/TLS 
+
+Modelo P2P -> Cada cliente é um servidor, assim divindo o trabalho do servidor entre servidores.
+
+HTTPS Criptografa os dados para não serem lidos por intermediarios
+
+Precisa-se para se tornar seguro um certificado digital, ele mostra data de expiração, informações sobre dominio, 
+
+Além disso, o certificado ainda guarda a chave pública que é utilizada para criptografar os dados que são trafegados entre cliente e servidor.
+
+HTTPS utiliza uma chave publica e uma privada, as chaves estão ligadas matemáticamente, os dados que foram cifrados pela chave publica(navegador) só podem ser lidos pela chave privada(servidor), o nome dessa criptografia é criptografia assimétrica, e ela é lenta.
+
+HTTPS Utiliza também a criptografia simetrica que usa a mesma chave para decifrar os dados, a criptografica simetrica é bem mais rapida
+
+Então, HTTPS começa com criptografia assimétrica para depois mudar para criptografia simétrica.
+
+DNS -> Domain System Name -> ele transforma por debaixo dos panos o dominio em ip e para prosseguir com a requisição
+
+br -> representa o servidor no brasil ele é o top level domain
+
+com -> abreviação comercial
+
+alura e com -> são sub-dominios
+
+subdominios podem existir também -> mail.google.com, drive.google.com
+
+Porta padrão HTTP : 80
+Porta padrão HTTPS: 443
+
+Uma URL é uma URI, mas nem todas as URI's são URLs! Existem URIs que identificam um recurso sem definir o endereço, nem o protocolo. Em outras palavras, uma URL representa uma identificação de um recurso (URI) através do endereço, mas nem todas as identificações são URL's.
+
+O HTTP não guarda informações de requisições, para guardar informações é preciso criar uma sessão
+
+Exemplo de sessão -> quando efetuamos login fazemos uma requisição para o servidor, o servidor verifica se o usuario existe e após isso ele retorna para o usuario uma indentificação temporaria.
+
+No Chrome podemos ver todos os cookies armazenados nas Configurações -> Privacidade -> Configurações de conteúdo... -> Todos os cookies e dados de site.... 
+
+Cookies guardam informações temporárias, podemos usar os coockies para guardar a indentificação temporaria
+
+Uma sessão HTTP nada mais é que um tempo que o cliente permanece ativo no sistema! 
+
+Codigo HTTP 301 -> Mover temporariamente
+Codigo HTTP 200 -> Codigo de sucesso
+Codigo HTTP 404 -> Não Encontrado
+Codigo HTTP 500 -> Erro no Servidor
+
+Metodo HTTP GET na URI -> http://calculadordeimc.com.br/?peso=44&altura=1.50
+
+Metodo HTTP POST -> serve para passar os dados debaixo dos panos para que não fique visiveis esses dados, guarda no corpo da requisição
+
+Metodo HTTP DELETE e PUT -> Apagar, e Atualizar
+
+Existes tipos de responses do servidor:
+1- HTML
+
+2- XML
+
+3- JSON
+
+//formas de arquivos diferentes
+
+Accept: text/html, Accept: text/css, Accept: application/xml, Accept: application/json, Accept:image/jpeg e Accept: image/*
+
+REST -> Trabalhar na web da forma que ela representa {
+    
+                 Operações(GET/POST/PUT/DELETE),
+                /                               \
+    Recurso(URI),             HTTP              Representação(JSON,XML,HTML)
+    _________________________________________________________________________
+    
+}
+
+
+
+PATCH é utilizado para atualização parcial do recurso que foi definido expressivamente
+
+Em alguns formatos HTTP devemos especificar alguns formatos, o nome desses formatos é MIME types
+text, image, application, audio e video
+
+subtipos
+
+text -> text/plain, text/html, text/css, text/javascript
+image -> image/gif, image/png, image/jpeg
+audio -> audio/midi, audio/mpeg, audio/webm, audio/ogg, audio/wav
+video -> video/mp4
+application -> application/xml,  application/pdf
+
+GZIP -> São os dados da resposta comprimidos, para recebimento de menos bytes consequentemente, isso veio com o HTTP2 e é padrão no HTTP2 e opcional no HTTP1
+
+E apartir do HTTP2 os dados vem por padrão em binario em HPACK que diminui mais ainda o tamanho e por fim ele criptografa os dados inteiros com o TLS
+
+a tecnologia HPACK é especialista em comprimir os Headers da requisições/respostas HTTP, deixando as mais leves.
+
+No HTTP 1 é preciso enviar Headers sempre que fizermos requisições para outra pagina mesmo se o conteudo requerido for o mesmo, no HTTP2 é corrigido isso, ele envia os conteudos apenas uma vez, e se o conteudo for diferente pode ser enviado.
+
+O HPACK tem maneiras de guardar cabeçarios
+
+No HTTP1 Precisa-se fazer as requisições 1 por 1 para ele renderizar a pagina por completo
+No HTTP2 apartir do momento que ele faz a primeira requisição ele indentifica o que é preciso para a pagina ser exibida e responde com todos os arquivos necessarios. o nome disso é Server Push
+
+Para que nós consigamos realizar uma conexão HTTP antes é feita uma conexão TCP
+
+TCP -> Conexão feita debaixo dos panos entre cliente e servidor
+
+No HTTP1 a conexão TCP tem que ser refeita a cada nova requisição
+
+Keep Alive -> Determina quanto tempo a nossa conexão poderá ficar ativa, ele não fecha a conexão TCP
+
+na maioria dos browsers hoje em dia tem cerca de 4-8 conexões TCP em um dominio
+
+No HTTP2 ele faz a primeira requisição e já vai processando as proximas sem ter que esperar a resposta da primeira, não precisamos esperar uma resposta para enviar outra. Se já está pronta para ser enviada, ele já envia diretamente.
+
+Nome desse processo é MultiComplexing
+
+Headers Stateful -> Manda apenas headers que mudam(não enviam o mesmo.)
+
+
+
+
+
+
+
+
