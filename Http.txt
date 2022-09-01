@@ -7,7 +7,7 @@ Protocolo -> Conjunto de regras
 
 HTTP -> Hypertext Transfer Protocol -> é um protocolo de regras
 
-HTTOS -> é um HTTP comum porém com uma segurança/criptografia SSL/TLS 
+HTTPS -> é um HTTP comum porém com uma segurança/criptografia SSL/TLS 
 
 Modelo P2P -> Cada cliente é um servidor, assim divindo o trabalho do servidor entre servidores.
 
@@ -40,7 +40,7 @@ Uma URL é uma URI, mas nem todas as URI's são URLs! Existem URIs que identific
 
 O HTTP não guarda informações de requisições, para guardar informações é preciso criar uma sessão
 
-Exemplo de sessão -> quando efetuamos login fazemos uma requisição para o servidor, o servidor verifica se o usuario existe e após isso ele retorna para o usuario uma indentificação temporaria.
+Exemplo de sessão -> quando efetuamos login fazemos uma requisição para o servidor, o servidor verifica se o usuario existe e após isso ele retorna para o usuario uma indentificação temporaria que é através dos cookies.
 
 No Chrome podemos ver todos os cookies armazenados nas Configurações -> Privacidade -> Configurações de conteúdo... -> Todos os cookies e dados de site.... 
 
@@ -57,18 +57,23 @@ Metodo HTTP GET na URI -> http://calculadordeimc.com.br/?peso=44&altura=1.50
 
 Metodo HTTP POST -> serve para passar os dados debaixo dos panos para que não fique visiveis esses dados, guarda no corpo da requisição
 
-Metodo HTTP DELETE e PUT -> Apagar, e Atualizar
+Metodo HTTP DELETE e PUT -> Apagar e Atualizar
 
-Existes tipos de responses do servidor:
+Existem tipos de responses possiveis do servidor:
 1- HTML
 
 2- XML
 
 3- JSON
 
-//formas de arquivos diferentes
+//formatos de arquivos diferentes aceitaveis
 
-Accept: text/html, Accept: text/css, Accept: application/xml, Accept: application/json, Accept:image/jpeg e Accept: image/*
+Accept: text/html, 
+Accept: text/css, 
+Accept: application/xml, 
+Accept: application/json, 
+Accept:image/jpeg, 
+Accept: image/*
 
 REST -> Trabalhar na web da forma que ela representa {
     
@@ -111,17 +116,17 @@ Para que nós consigamos realizar uma conexão HTTP antes é feita uma conexão 
 
 TCP -> Conexão feita debaixo dos panos entre cliente e servidor
 
-No HTTP1 a conexão TCP tem que ser refeita a cada nova requisição
+No HTTP1 a conexão TCP tem que ser refeita a cada nova requisição porém existe o Keep Alive
 
 Keep Alive -> Determina quanto tempo a nossa conexão poderá ficar ativa, ele não fecha a conexão TCP
 
 na maioria dos browsers hoje em dia tem cerca de 4-8 conexões TCP em um dominio
 
-No HTTP2 ele faz a primeira requisição e já vai processando as proximas sem ter que esperar a resposta da primeira, não precisamos esperar uma resposta para enviar outra. Se já está pronta para ser enviada, ele já envia diretamente.
+No HTTP2 ele faz a primeira requisição no TCP e já vai processando as proximas sem ter que esperar a resposta da primeira, não precisamos esperar uma resposta para enviar outra. Se já está pronta para ser enviada, ele já envia diretamente.
 
 Nome desse processo é MultiComplexing
 
-Headers Stateful -> Manda apenas headers que mudam(não enviam o mesmo.)
+Headers Stateful -> Manda apenas headers que mudam(não enviam o mesmo.).
 
 
 
