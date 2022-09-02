@@ -1,0 +1,58 @@
+Scrum:[
+    1 - Em uma empresa de desenvolvimento de software é usado a metodologia Scrum, durante uma reunião de inicio de projeto foram feitas anotações por uma pessoa, e essa mesma pessoa ajudou o time a enteder o que era preciso para que a fase da sprint fosse concluida e quais eram os principios do projeto a serem entregues, foi acordado também que a proxima reunião seria feito no tempo minimo das regras do scrum. Qual o nome tecnico dessa reunião, das anotações, e qual o tempo minimo desse tipo de reunião?
+    R: "o nome tecnico dessa reunião é sprint, ela tem o tempo minimo de 2 semanas e maximo um mês, o nome das anotações é backlog",
+    
+    2- Um time scrum é composto por quais funções e o que essas funções fazem?
+    R: "Desenvolvedores que tem a responsabilidade de desenvolver o projeto, Scrum Master que tem a responsabilidade de garantir que as regras Scrum vão ser seguidas durante o desenvolvimento do projeto , Product Owner ele é a ponte entre o o cliente e o time de desenvolvimento, garantindo o que está sendo desenvolvido é o que realmente o cliente quer.",
+    
+    3- Quantas reuniões tem o scrum, quais são elas e para que servem?
+        R:"O Scrum tem 4 reuniões, Daily, Sprint que são reuniões, Review que é uma reunião de revisão no final da sprint para garantir que o que está sendo produzido é o que realmenteo cliente quer, Retrospective é uma reunião de retrospectiva para ver os prós e contras no que foi desenvolvido e o que foi aprendido",
+]
+
+GIT:[
+    1 - No git temos uma sequencia de comandos para subir uma modificação para o repositorio, vamos supor que exista um repositorio já na nuvem, e você não tem esse repositorio em sua maquina local, você precisa fazer uma modificação em 3 arquivos, pom.xml, e em mais 2 classes, Venda e Pagamento. e é necessário subir esses 3 arquivos, quais são os passos-a-passos para subir essas modificações para a branch de desenvolvimento.
+        R:
+        1- primeiro passo criar a branch desenvolvimento com o comando 'checkout -b desenvolvimento' e clonar o repositorio da nuvem para sua maquina com git clone HTTPS/SSH,
+        2- segundo passo é modificar os arquivos necessários,
+        3- passo é dar git add nomeArquivo nos 3 arquivos modificados
+        4- comitar os arquivos que foram pra staged git commit -m "arquivos foram modificados"
+        5- quinto passo é subir o projeto para o repostiorio na nuvem com git push origin desenvolvimento
+
+    2- Qual passos de comando para fazer um push de uma branch de desenvolvimento para a branch principal, considerando que o clone já foi feito anteriormente.
+        1- git pull -> para puxar todos os dados da nuvem e atualizar
+        2- git add -> para atualizar o status para pronto para commitar,
+        3-git switch main -> troca pra branch principal
+        4- git merge desenvolvimento
+        5- git push origin main -> faz o push para branch principal
+    
+    3- o que é o GIT e o github?
+        R: GIT é o software de versionamento de codigo, e o GitHub é o repostiorio na nuvem
+]
+
+Java JDK E JRE:[
+    1- o que é JDK, e JRE, e para que servem?
+            R: JDK Java Development Kit serve para adicionar bibliotecas adicionais para desenvolvedores, é o necessário para poder desenvolver em java, JRE Java Runtime Enviroment serve para lê o codigo
+
+    2 - Quais os comandos para executar um codigo em java no console?
+
+        1- javac programa.java
+        2- java programa
+
+    3- O que faz o JVM?
+         R: quando o javac compila o codigo transforma ele em bytecode para se tornar legivel para o JVM, o JVM ele ele interpreta o codigo e traduz para cada maquina em especifico, Linux, Windows, MacOS
+]
+
+Modelagem de dados:[
+    1- Qual comando é necessario para selecionar todos os dados da tabela que contenham status ativo?
+        R: SELECT * FROM WHERE status = "ativo";
+    
+    2- Qual a diferença do SQL para o NoSQL?
+        R: o SQL contém tabelas e essas tabelas são relacionadas, no NoSQL ao invés de tabelas são Collections e não contém relacionamentos, além de que a forma de passar dados é mais flexivel.
+
+    3- Em um Banco de dados MySQL qual comando utilizamos para remover dados de uma tabela especifica?
+        R: DELETE FROM tabela WHERE tabela_id = 10;
+        
+]
+
+
+

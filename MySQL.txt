@@ -15,13 +15,19 @@ CREATE TABLE LIVROS(
     PRIMARY KEY (ID_LIVRO)
     );
 
-    Fazer relacionamento com tabelas
+    'Fazer relacionamento com tabelas'
 
     ALTER TABLE vendedores ADD constraint CE_vendedores_vendas
     foreign key (ID_VENDEDOR)
     references VENDAS (ID_VENDEDOR)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION;
+
+    ALTER TABLE patient ADD CONSTRAINT CA_CASE
+    foreign key(PID)
+    references CASE (PID),
+    ON DELETE NO ACTION,
+    ON UPDATE NO ACTION
 
     DESATIVAR CHAVE ESTRANGEIRA E TIRAR RELACIONAMENTOS ENTRE tabelas
     SET FOREIGN_KEY_CHECKS = 0;

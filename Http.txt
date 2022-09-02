@@ -128,9 +128,9 @@ Nome desse processo é MultiComplexing
 
 Headers Stateful -> Manda apenas headers que mudam(não enviam o mesmo.).
 
+PUT quando modificar todos os atributos. PATCH quando modificar um ou alguns atributos.
 
-
-
+O método PUT substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
 
 
 
