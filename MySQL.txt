@@ -99,8 +99,7 @@ CREATE TABLE LIVROS(
         GROUP BY VENDAS.ID_VENDEDOR
 
 
-    Selecionando valores com funções
-
+    Selecionando valores com funçõesf
     SELECT MAX(QTD_VENDIDA) FROM VENDAS;
 
     MAX: a partir de um conjunto de valores é retornado o maior entre eles;
@@ -115,6 +114,9 @@ CREATE TABLE LIVROS(
 
     SELECT MAX(QTD_VENDIDA) FROM VENDAS GROUP BY ID_VENDEDOR;
 
+    DDL - COMANDOS PARA ALTERAR A TABELA{
+        CREATE, ALTER TABLE, DROP TABLE, TRUNCATE E COMMENT
+    }
     
 
 

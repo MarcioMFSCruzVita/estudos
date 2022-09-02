@@ -260,6 +260,7 @@ db.alunos.insert(
 }
     ]
 )
+//Aggregate é um método do MongoDB que recebe um array com vários objetos. Esses objetos têm chaves específicas que fazem o aggregate executar ações que operam os dados desse schema como filtro de dados, contagem de valores repetidos, soma, agrupamento e etc.
 
 db.alunos.aggregate([
     {

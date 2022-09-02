@@ -1,6 +1,6 @@
 Scrum:[
     1 - Em uma empresa de desenvolvimento de software é usado a metodologia Scrum, durante uma reunião de inicio de projeto foram feitas anotações por uma pessoa, e essa mesma pessoa ajudou o time a enteder o que era preciso para que a fase da sprint fosse concluida e quais eram os principios do projeto a serem entregues, foi acordado também que a proxima reunião seria feito no tempo minimo das regras do scrum. Qual o nome tecnico dessa reunião, das anotações, e qual o tempo minimo desse tipo de reunião?
-    R: "o nome tecnico dessa reunião é sprint, ela tem o tempo minimo de 2 semanas e maximo um mês, o nome das anotações é backlog",
+    R: "o nome tecnico dessa reunião é planning, ela tem o tempo minimo de 2 semanas e maximo um mês, o nome das anotações é backlog",
     
     2- Um time scrum é composto por quais funções e o que essas funções fazem?
     R: "Desenvolvedores que tem a responsabilidade de desenvolver o projeto, Scrum Master que tem a responsabilidade de garantir que as regras Scrum vão ser seguidas durante o desenvolvimento do projeto , Product Owner ele é a ponte entre o o cliente e o time de desenvolvimento, garantindo o que está sendo desenvolvido é o que realmente o cliente quer.",
@@ -12,7 +12,8 @@ Scrum:[
 GIT:[
     1 - No git temos uma sequencia de comandos para subir uma modificação para o repositorio, vamos supor que exista um repositorio já na nuvem, e você não tem esse repositorio em sua maquina local, você precisa fazer uma modificação em 3 arquivos, pom.xml, e em mais 2 classes, Venda e Pagamento. e é necessário subir esses 3 arquivos, quais são os passos-a-passos para subir essas modificações para a branch de desenvolvimento.
         R:
-        1- primeiro passo criar a branch desenvolvimento com o comando 'checkout -b desenvolvimento' e clonar o repositorio da nuvem para sua maquina com git clone HTTPS/SSH,
+        desenvolvimento' e clonar o repositorio da nuvem para sua maquina com git clone HTTPS/SSH,
+        1- primeiro passo criar a branch desenvolvimento com o comando 'checkout -b 
         2- segundo passo é modificar os arquivos necessários,
         3- passo é dar git add nomeArquivo nos 3 arquivos modificados
         4- comitar os arquivos que foram pra staged git commit -m "arquivos foram modificados"
@@ -51,7 +52,7 @@ Modelagem de dados:[
 
     3- Em um Banco de dados MySQL qual comando utilizamos para remover dados de uma tabela especifica?
         R: DELETE FROM tabela WHERE tabela_id = 10;
-        
+
 ]
 
 
