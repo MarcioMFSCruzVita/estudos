@@ -1,0 +1,10 @@
+Spring Framework o que é? -> spring framework é uma biblioteca que ajuda nas configurações do pom.xml, ele veio para facilitar as configurações do maven, junto com ele temos o Tomcat que abre um servidor local para facilitar o desenvolvimento de aplicações web
+
+Tomcat -> É um servidor que é aberto na maquina local para desenvolvimento web.
+
+DTO(Data Transfer Object) -> São classes que provê o que é necessário para determinado processo, 
+
+# Projeto de revisão links de consulta:
+# https://www.devmedia.com.br/utilizando-criptografia-simetrica-em-java/31170
+# https://www.toolsqa.com/postman/post-request-in-postman/
+# https://www.geeksforgeeks.org/how-to-get-the-body-of-request-in-spring-boot/#:~:text=How%20to%20Get%20the%20Body%20of%20Request%20in,add%20the%20annotation%20%40RestController.%20...%20More%20items...%20

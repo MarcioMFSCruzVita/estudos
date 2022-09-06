@@ -48,10 +48,29 @@ Cookies guardam informações temporárias, podemos usar os coockies para guarda
 
 Uma sessão HTTP nada mais é que um tempo que o cliente permanece ativo no sistema! 
 
-Codigo HTTP 301 -> Mover temporariamente
+Codigo HTTP 300 -> Multiple Choice
+Codigo HTTP 301 -> Movido Permanentemente
+Codigo HTTP 302 -> Found
+Codigo HTTP 303 -> See Other
+Codigo HTTP 304 -> Not Modified
+
 Codigo HTTP 200 -> Codigo de sucesso
-Codigo HTTP 404 -> Não Encontrado
+Codigo HTTP 201 -> Created
+Codigo HTTP 202 -> Accepted
+Codigo HTTP 203  -> Non-Authoritative Information
+Codigo HTTP 204 -> No Content
+
+Codigo HTTP 400 -> Bad Request
+Codigo HTTP 401 -> Unauthorized
+Codigo HTTP 402 -> Payment Required
+Codigo HTTP 403 -> Forbidden
+Codigo HTTP 404 -> Not Found
+
 Codigo HTTP 500 -> Erro no Servidor
+Codigo HTTP 501 -> Not Implemented
+Codigo HTTP 502 -> Bad Gateway
+Codigo HTTP 503 -> Service Unavailable
+Codigo HTTP 504 -> Gateway Timeout
 
 Metodo HTTP GET na URI -> http://calculadordeimc.com.br/?peso=44&altura=1.50
 
