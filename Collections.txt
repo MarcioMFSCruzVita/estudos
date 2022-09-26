@@ -38,7 +38,7 @@ Collection -> List, Set
 
 HashSet - HashSet é um conjunto por isso não tem uma ordem
 
-LinkedList -> lista vazia e cada novo item adicionado ele coloca em ordem aleatorio assim não definindo ordem e não carregando tanto o sistema, além de usar o comparable.
+LinkedList -> lista vazia e cada novo item adicionado ele coloca em ordem aleatorio assim não definindo ordem e não carregando tanto o sistema, ele utiliza o comparable.
 
 LinkedHashSet -> nos dá a performance de um HashSet mas com acesso previsível e ordenado.
 
