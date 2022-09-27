@@ -1,0 +1,60 @@
+
+Modificadores de Acesso :
+    Public: Visibilidade para todos
+    Private: visibilidade apenas para a classe
+    Package Private: visibilidade apenas para o pacote
+    Protected: Define o atributo visivel apenas para o propio pacote ou para os filhos
+
+    Alterar Versão do Java -> Botão direito projeto -> Build Path -> Libraries
+
+
+    Java DOC:
+    lista completa:
+ @version
+ @author
+@author (usado na classe ou interface)
+@version (usado na classe ou interface)
+@param (usado no método e construtor)
+@return (usado apenas no método)
+@exception ou @throws (no método ou construtor)
+@see
+@since
+@serial
+@deprecated
+
+
+JAR -> O JAR serve para distribuir o codigo que foi compilado no caso classes, para outros projetos.
+para importar um jar é preciso criar uma pasta padrão chamada libs e dentro dela colocar o arquvio compilado jar, após isso devemos clicar em BuildPath e add BuildPath.
+O arquivo JAR nada mais é que um arquivo ZIP.
+
+Java.lang
+
+ System.         out.            println()
+ Classe     Atributo static      metodo
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+55% - custo fixo
+
+30% investimento
+
+15% - educação
+
