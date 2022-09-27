@@ -1,0 +1,14 @@
+Step Into (F5): entra no método em que o debug está parado.
+
+Step Over (F6): vai para a próxima linha de código.
+
+Step Return (F7): retorna ao método anterior e só funciona
+
+Watch -> Observa o valor da variavel
+Inspect -> Executa o metodo e retorna seu valor
+Show -> mostra o valor de uma variavel
+
+Java Platform Debugger Architecture(JPDA) ->  é uma junção de API para Debug de aplicações Java. possível liberar uma porta em seu servidor/web-container, para podermos conectar e começar o processo de debug.
+
+Porta Padrão JPDA -> 8000.
+
