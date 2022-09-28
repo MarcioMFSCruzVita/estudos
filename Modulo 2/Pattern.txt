@@ -1,0 +1,11 @@
+Design Patterns Strategy ->  é criada uma interface para metodos que se tornam recorrentes, passando o metodo apenas para ser sobreescrito dependendo da situação assim não sendo preciso a criação desse metodo a cada vez que precisa dele.
+
+Chain of responsibility ->  é um padrão de projeto que permite passar a solicitação ao longo da cadeia de handlers em potencial até que um deles lide com a solicitação.
+
+Template Method ->
+
+State -> 
+
+Pattern command -> é o comando sendo executa por uma classe através de um metodo ao invés do main.
+
+Listener é basicamente as classes sendo chamadas sem precisar chama-las uma por uma, criamos uma lista e passamos todas as classes para ser executadas.
