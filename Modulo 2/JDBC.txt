@@ -1,0 +1,5 @@
+JDBC é o intermediador da aplicação entre o banco de dados, ele reconhece em qual banco estou tentando conectar.
+
+para abrir uma conexão devemos usar o metodo getConnection da classe DriverManager,
+
+no metodo getConnectio devemos passar uma string de conexao que define url, usuario, senha
