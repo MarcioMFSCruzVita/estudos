@@ -1,0 +1,32 @@
+O Spring por padrão converte dados para JSON utilizando a biblioteca Jackson.
+Para não precisarmos utilizar a annotation @ResponseBody utilizamos o @RestController
+
+
+O que é um REST{
+    Representational State Transfer
+    é um Modelo de arquitetura para sistemas distribuidos baseado no HTTP.
+
+    Recursos tudo que o sistema gerencia é chamado de recursos.
+    URI: indentificador unico de cada recurso.
+    Manipulação de Recusos(Verbos Http): POST, GET, PUT, DELETE
+
+    Representação de Recursos: JSON ou XML, ela é transferida entre o cliente e o servidor
+
+    Stateless funciona no lugar do session, os servidores não guardam status da comunicação, o session faz isso.
+
+}
+
+Fazendo configuração do H2{
+    POM.XML{
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+		</dependency>
+    }
+
+}
