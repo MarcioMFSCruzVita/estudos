@@ -1,0 +1,25 @@
+Para indicar um relacionamento no repository{^
+
+Utilizando as regras da convenção:
+    public interface TopicoRepository extends JpaRepository<Topico, Long> {
+
+        List<Topico> findByCurso_Nome(String nomeCurso);
+        }
+Fazendo relacionamento de uma forma diferente:
+    @Query("SELECT t FROM Topico t WHERE t.curso.nome = :nomeCurso")
+            List<Topico> carregarPorNomeDoCurso(@Param("nomeCurso")(String nomeCurso);
+
+}
+
+Todo metodo de uma controller não pode ter o retorno null, se não ele não especificará o tipo de resposta exata, podemos usar o response entity para fazer o tratamento da resposta.
+
+Para usar a annotation Request Body para ler o head que é enviado.
+
+No postman no Headers definimos o content-type application/json para dizer o tipo de informações que estamos enviando.
+
+Atráves do BeanValidation conseguimos validar os dados recebidos e caso algum não esteja de acordo ele retorna um erro, para isso precisamos adicionar nos parametros a annotation @Valid e adicionar dentro da classe que está pegando os valores as annotations que definem as regras.
+
+Para interceptar as exceptions que forem lançadas nos métodos das classes controller, devemos criar uma classe anotada com @RestControllerAdvice;
+
+
+Para tratar os erros de validação do Bean Validation e personalizar o JSON, que será devolvido ao cliente da API, com as mensagens de erro, devemos criar um método na classe @RestControllerAdvice e anotá-lo com @ExceptionHandler e @ResponseStatus.

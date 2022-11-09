@@ -1,0 +1,1 @@
+Vetor -> precisa empurrar um dado para adicionar outro, ele está presente no ArrayList
